@@ -1,0 +1,18 @@
+.shadow-pro {
+    transition: all 0.3s ease;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 5px 10px rgba(0, 0, 0, 0.05);
+}
+
+.hover-card:hover {
+    transform: translateY(-5px); /* Card lifts up on hover */
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2), 0 10px 15px rgba(0, 0, 0, 0.1); /* Enhanced shadow on hover */
+    cursor: pointer; /* Change cursor to pointer to indicate it's clickable */
+}
+
+.card-header i {
+    margin-right: 10px; /* Space between icon and text */
+}
+
+.card-footer {
+    background-color: #f8f9fa; /* Light footer background */
+}
